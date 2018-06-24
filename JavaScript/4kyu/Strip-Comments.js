@@ -26,7 +26,7 @@ function solution(input, markers) {
     markers.forEach(e => {
       let markerIndex = v.indexOf(e);
       if (markerIndex !== -1) {
-        inputArr[i] = v.slice(0, markerIndex - 1)
+        inputArr[i] = v.slice(0, markerIndex).trim()
       }
     })
   })
